@@ -1,4 +1,4 @@
-body {
+﻿body {
 	margin: 0px;
 }
 
@@ -127,7 +127,7 @@ button {
 
 
 #sdbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://i1.wp.com/l1f.us/wp-content/uploads/2018/12/FNS-9c-Working.jpeg?fit=2048%2C1152&ssl=1") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("FNS9c.jpeg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -146,7 +146,7 @@ button {
 }
 
 #hdbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://www.gunsweek.com/sites/default/files/styles/mt_slideshow/public/archive/contents/shotguns/shot-show/kel-tec-ks7-12-gauge-pump-action-shotgun/KelTec-KS7-01x.jpg?itok=gBpHbYwI") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("KSG.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -166,7 +166,7 @@ button {
 }
 
 #frbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://princelaw.files.wordpress.com/2014/12/sigpistol.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("sigpistol.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -187,7 +187,7 @@ button {
 }
 
 #ducksbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://www.pbase.com/dirtweed/image/156905423/original.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("mossberg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -207,7 +207,7 @@ button {
 }
 
 #deerbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://nzguns.co.nz/assets/media-publication/178/images/Browning-X-Bolt-Pro.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("Xbolt.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
