@@ -1,4 +1,4 @@
-﻿body {
+body {
 	margin: 0px;
 }
 
@@ -6,7 +6,6 @@
 	text-align: center;
 	font-family: 'Bitter', serif;
 	padding: 10px;
-	background-color: rgba(0, 0, 0, 0.55);
 	max-width: 75%;
 	margin: 0 auto;
 	border-radius: 50px;
@@ -36,11 +35,16 @@ a {
 	border-radius: 10px;
 	border: 0px;
 	font-weight: bold;
-	background-color: rgba(0, 0, 0, 0.55);
 	font-family: 'Bitter', serif;
 	color: white;
 	text-decoration: none;
 }
+
+	a:hover {
+		color: white;
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
 
 button {
 	font-size: 20px;
@@ -49,10 +53,16 @@ button {
 	border-radius: 10px;
 	border: 0px;
 	font-weight: bold;
-	background-color: rgba(0, 0, 0, 0.55);
+	background-color: rgba(0, 0, 0, 0.0);
 	font-family: 'Bitter', serif;
 	color: white;
 }
+
+	button:hover {
+		color: white;
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
 
 .dropbtn {
 	cursor: pointer;
@@ -107,7 +117,7 @@ button {
 
 
 #pg1 {
-	background: url("https://christensenarms.com/wp-content/uploads/2017/12/Mesa-Gallery_06.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("Mesa.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -115,8 +125,9 @@ button {
 	height: 100vh;
 }
 
+
 #sdbg {
-	background: url("https://i1.wp.com/l1f.us/wp-content/uploads/2018/12/FNS-9c-Working.jpeg?fit=2048%2C1152&ssl=1") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://i1.wp.com/l1f.us/wp-content/uploads/2018/12/FNS-9c-Working.jpeg?fit=2048%2C1152&ssl=1") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -135,7 +146,7 @@ button {
 }
 
 #hdbg {
-	background: url("https://www.gunsweek.com/sites/default/files/styles/mt_slideshow/public/archive/contents/shotguns/shot-show/kel-tec-ks7-12-gauge-pump-action-shotgun/KelTec-KS7-01x.jpg?itok=gBpHbYwI") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://www.gunsweek.com/sites/default/files/styles/mt_slideshow/public/archive/contents/shotguns/shot-show/kel-tec-ks7-12-gauge-pump-action-shotgun/KelTec-KS7-01x.jpg?itok=gBpHbYwI") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -146,7 +157,7 @@ button {
 }
 
 #hdtit {
-	color: black;
+	color: white;
 	max-width: 25%;
 	position: relative;
 	left: 10px;
@@ -155,7 +166,7 @@ button {
 }
 
 #frbg {
-	background: url("https://princelaw.files.wordpress.com/2014/12/sigpistol.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://princelaw.files.wordpress.com/2014/12/sigpistol.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -176,7 +187,7 @@ button {
 }
 
 #ducksbg {
-	background: url("https://www.pbase.com/dirtweed/image/156905423/original.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://www.pbase.com/dirtweed/image/156905423/original.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -196,7 +207,7 @@ button {
 }
 
 #deerbg {
-	background: url("https://nzguns.co.nz/assets/media-publication/178/images/Browning-X-Bolt-Pro.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://nzguns.co.nz/assets/media-publication/178/images/Browning-X-Bolt-Pro.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
