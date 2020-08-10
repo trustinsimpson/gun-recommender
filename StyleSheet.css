@@ -3,10 +3,6 @@
 	font-size: 62.5%;
 }
 
-.container {
-	flex-basis: 1400px;
-}
-
 hr {
 	border-color: white;
 	height: 3px;
@@ -73,7 +69,6 @@ button {
 .dropdown {
 	position: relative;
 	display: inline-block;
-	
 }
 
 .dropdown-content {
@@ -98,7 +93,6 @@ button {
 		font-weight: bold;
 		background-color: rgba(0, 0, 0, 0.0);
 		font-family: 'Bitter', serif;
-		
 	}
 
 		.dropdown-content a:hover {
@@ -128,17 +122,23 @@ button {
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100vh;
+	width: 100vw;
 }
 
 
 #sdtit {
-	color: White;
-	max-width: 25%;
-	position: relative;
-	left: 10px;
-	top: 10px;
-	font-style: oblique;
+	font-size: 3rem;
+	font-family: 'stencil';
+	font-style: italic;
+	padding: 10px;
+	max-width: 75%;
+	margin: 0 auto;
+	color: white;
 }
+
+	#sdtit:hover {
+		padding: 0 20px 0 7px;
+	}
 
 #hdbg {
 	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("KSG.jpg") no-repeat center center fixed;
@@ -152,13 +152,18 @@ button {
 }
 
 #hdtit {
+	font-size: 3rem;
+	font-family: 'stencil';
+	font-style: italic;
+	padding: 10px;
+	max-width: 75%;
+	margin: 0 auto;
 	color: white;
-	max-width: 25%;
-	position: relative;
-	left: 10px;
-	top: 10px;
-	font-style: oblique;
 }
+
+	#hdtit:hover {
+		padding: 0 20px 0 7px;
+	}
 
 #frbg {
 	background: linear-gradient( rgba(0,0,0,0.533), rgba(0,0,0,0.533)), url("sigpistol.jpg") no-repeat center center fixed;
@@ -172,14 +177,18 @@ button {
 }
 
 #frtit {
-	color: black;
-	max-width: 25%;
-	position: relative;
-	left: 10px;
-	top: 10px;
+	font-size: 3rem;
+	font-family: 'stencil';
 	font-style: italic;
-	font-family: Stencil;
+	padding: 10px;
+	max-width: 75%;
+	margin: 0 auto;
+	color: white;
 }
+
+	#frtit:hover {
+		padding: 0 20px 0 7px;
+	}
 
 #ducksbg {
 	background: linear-gradient( rgba(0,0,0,0.486), rgba(0,0,0,0.486)), url("mossberg.jpg") no-repeat center center fixed;
@@ -193,13 +202,18 @@ button {
 }
 
 #duckstit {
+	font-size: 3rem;
+	font-family: 'stencil';
+	font-style: italic;
+	padding: 10px;
+	max-width: 75%;
+	margin: 0 auto;
 	color: white;
-	max-width: 25%;
-	position: relative;
-	left: 10px;
-	top: 10px;
-	font-style: oblique;
 }
+
+	#duckstit:hover {
+		padding: 0 20px 0 7px;
+	}
 
 #deerbg {
 	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("Xbolt.jpg") no-repeat center center fixed;
@@ -213,10 +227,31 @@ button {
 }
 
 #deertit {
+	font-size: 3rem;
+	font-family: 'stencil';
+	font-style: italic;
+	padding: 10px;
+	max-width: 75%;
+	margin: 0 auto;
 	color: white;
-	max-width: 30%;
-	position: relative;
-	left: 10px;
-	top: 10px;
-	font-style: oblique;
+}
+
+	#deertit:hover {
+		padding: 0 20px 0 7px;
+	}
+
+
+#homebutton {
+	position: absolute;
+	bottom: 690px;
+}
+
+.resize {
+	width: 60px;
+	height: auto
+}
+
+.resize {
+	width: 50px;
+	height: auto;
 }
