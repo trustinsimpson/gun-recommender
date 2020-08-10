@@ -119,6 +119,11 @@ button {
 	height: 100vh;
 }
 
+#sdbody {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
 
 #sdbg {
 	background: linear-gradient( rgba(0,0,0,0.533), rgba(0,0,0,0.533)), url("FNS9c.jpeg") no-repeat center center fixed;
@@ -126,7 +131,9 @@ button {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 
@@ -144,13 +151,21 @@ button {
 		padding: 0 20px 0 7px;
 	}
 
+#hdbody {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
 #hdbg {
 	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("KSG.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 #hdtit {
@@ -167,13 +182,21 @@ button {
 		padding: 0 20px 0 7px;
 	}
 
+#frbody {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
 #frbg {
 	background: linear-gradient( rgba(0,0,0,0.533), rgba(0,0,0,0.533)), url("sigpistol.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 #frtit {
@@ -190,12 +213,21 @@ button {
 		padding: 0 20px 0 7px;
 	}
 
+#ducksbody {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
 #ducksbg {
 	background: linear-gradient( rgba(0,0,0,0.486), rgba(0,0,0,0.486)), url("mossberg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 #duckstit {
@@ -212,13 +244,21 @@ button {
 		padding: 0 20px 0 7px;
 	}
 
-#deerbg {
+#deerbody {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+	#deerbg {
 	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("Xbolt.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 #deertit {
