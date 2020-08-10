@@ -8,22 +8,24 @@
 	<title>Gun Recommender</title>
 </head>
 <body>
-	<div id="pg1">
-		<div class="titles">
-			<h1>Which Firearm Should I Purchase?</h1>
-			<h2>What do I need a firearm for?</h2>
-		</div>
-		<div class="titbut">
-			<a href="SD.html">Self Defense</a>
-			<a href="HD.html">Home Defense</a>
-			<div class="dropdown">
-				<button onclick="dropdown()" class="dropbtn">Hunting</button>
-				<div id="myDropdown" class="dropdown-content">
-					<a href="Deer.html">Deer</a>
-					<a href="Ducks.html">Ducks</a>
+	<div id="pg1" class="container col-12 d-flex align-items-center">
+		<div class="row col-12">
+			<header id="titles" class=" text-center col-12">
+				<h1>Which Firearm Should I Purchase?</h1>
+			</header>
+			<div id="titbut" class="text-center col-12">
+				<hr />
+				<a href="SD.html">Self Defense</a>
+				<a href="HD.html">Home Defense</a>
+				<div class="dropdown">
+					<button onclick="dropdown()" class="dropbtn">Hunting</button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="Deer.html">Deer</a>
+						<a href="Ducks.html">Ducks</a>
+					</div>
 				</div>
+				<a href="FR.html">Fun At The Range</a>
 			</div>
-			<a href="FR.html">Fun At The Range</a>
 		</div>
 	</div>
 	<script src="Script.js"></script>
