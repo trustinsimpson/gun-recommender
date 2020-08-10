@@ -60,6 +60,11 @@ button {
 		text-decoration: none;
 		background-color: rgba(0, 0, 0, 0.5);
 		transition: 750ms;
+		outline: none;
+	}
+
+	button:focus {
+	outline: none;
 	}
 
 .dropbtn {
@@ -133,7 +138,6 @@ button {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	position: absolute;
 }
 
 
@@ -165,7 +169,6 @@ button {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	position: absolute;
 }
 
 #hdtit {
@@ -196,7 +199,6 @@ button {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	position: absolute;
 }
 
 #frtit {
@@ -227,7 +229,6 @@ button {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	position: absolute;
 }
 
 #duckstit {
@@ -258,7 +259,6 @@ button {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	position: absolute;
 }
 
 #deertit {
@@ -278,7 +278,8 @@ button {
 
 #homebutton {
 	position: absolute;
-	bottom: 690px;
+	bottom: 200px;
+	right: 300px;
 }
 
 .resize {
