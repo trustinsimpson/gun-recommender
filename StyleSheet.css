@@ -1,5 +1,6 @@
 ﻿body {
 	margin: 0px;
+	font-size: 62.5%;
 }
 
 .container {
@@ -13,6 +14,7 @@ hr {
 }
 
 #titles {
+	font-size: 3rem;
 	font-family: 'Bitter', serif;
 	padding: 10px;
 	max-width: 75%;
@@ -20,8 +22,9 @@ hr {
 	color: white;
 }
 
+
 a {
-	font-size: 20px;
+	font-size: 1.6rem;
 	margin: 10px;
 	padding: 5px;
 	border-radius: 10px;
@@ -40,7 +43,7 @@ a {
 	}
 
 button {
-	font-size: 20px;
+	font-size: 1.6rem;
 	margin: 10px;
 	padding: 5px;
 	border-radius: 10px;
@@ -70,12 +73,13 @@ button {
 .dropdown {
 	position: relative;
 	display: inline-block;
+	
 }
 
 .dropdown-content {
 	display: none;
 	position: absolute;
-	right: -30px;
+	right: -15px;
 	background-color: rgba(0, 0, 0, 0.0);
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.0);
@@ -86,7 +90,7 @@ button {
 		color: white;
 		text-decoration: none;
 		display: block;
-		font-size: 20px;
+		font-size: 1.6rem;
 		margin: 10px;
 		padding: 5px;
 		border-radius: 10px;
@@ -94,6 +98,7 @@ button {
 		font-weight: bold;
 		background-color: rgba(0, 0, 0, 0.0);
 		font-family: 'Bitter', serif;
+		
 	}
 
 		.dropdown-content a:hover {
@@ -117,7 +122,7 @@ button {
 
 
 #sdbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("FNS9c.jpeg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.533), rgba(0,0,0,0.533)), url("FNS9c.jpeg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -136,7 +141,7 @@ button {
 }
 
 #hdbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("KSG.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("KSG.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -156,7 +161,7 @@ button {
 }
 
 #frbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("sigpistol.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.533), rgba(0,0,0,0.533)), url("sigpistol.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -177,7 +182,7 @@ button {
 }
 
 #ducksbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("mossberg.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.486), rgba(0,0,0,0.486)), url("mossberg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -197,7 +202,7 @@ button {
 }
 
 #deerbg {
-	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("Xbolt.jpg") no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("Xbolt.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
