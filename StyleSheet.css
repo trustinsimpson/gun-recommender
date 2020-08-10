@@ -250,7 +250,7 @@ button {
 	width: 100%;
 }
 
-	#deerbg {
+#deerbg {
 	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("Xbolt.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
