@@ -4,6 +4,7 @@
 	width: 100%;
 	overflow: hidden;
 	font-size: 62.5%;
+	padding: 0 !important;
 }
 
 hr {
@@ -19,6 +20,7 @@ hr {
 	max-width: 75%;
 	margin: 0 auto;
 	color: white;
+	bottom: 3rem;
 }
 
 a {
@@ -32,6 +34,7 @@ a {
 	color: white;
 	text-decoration: none;
 	transition: all 500ms;
+	top: 3rem;
 }
 
 	a:hover {
@@ -120,7 +123,14 @@ button {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
 }
 
 section {
