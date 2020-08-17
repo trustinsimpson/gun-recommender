@@ -144,7 +144,6 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	bottom: 10px;
 }
 
 #sdbg {
@@ -250,11 +249,14 @@ section {
 }
 
 
-/*@media only screen and (max-width: 768px) {
-	#titles, button, p, #titbut a, li, #tit {
-		font-size: 7rem;
+@media only screen and (max-width: 768px) {
+	p, li {
+		font-size: 1.5rem;
 	}
-	.home .resize {
-		width: 9rem;
+	.card-body {
+		bottom: 28rem;
 	}
-}*/
+	#card1 {
+		bottom: 24rem;
+	}
+	}
