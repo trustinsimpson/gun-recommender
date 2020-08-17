@@ -250,11 +250,11 @@ section {
 }
 
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
 	#titles, button, p, #titbut a, li, #tit {
 		font-size: 7rem;
 	}
 	.home .resize {
 		width: 9rem;
 	}
-}
+}*/
