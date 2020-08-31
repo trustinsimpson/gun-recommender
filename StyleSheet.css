@@ -301,3 +301,9 @@ section {
 		bottom: 24rem;
 	}
 	}
+
+@media only screen and (max-width: 361px) {
+	#tit {
+		font-size: 5rem;
+	}
+}
