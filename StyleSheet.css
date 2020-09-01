@@ -306,8 +306,18 @@ section {
 	#tit {
 		font-size: 5rem;
 	}
-	#tit:focus {
+
+		#tit:focus {
 			position: absolute;
-			top: 20rem;
+			bottom: 20rem;
 }
+
+	.card-body {
+		bottom: 22rem;
+	}
+
+	#card1 {
+		bottom: 20rem;
+	}
 }
+
