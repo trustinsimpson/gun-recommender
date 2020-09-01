@@ -1,4 +1,5 @@
-﻿function dropdown() {
+// Dropdown 1
+function dropdown() {
 	document.getElementById("myDropdown").classList.toggle("show");
 }
 
@@ -15,6 +16,9 @@ window.onclick = function (event) {
     }
 }
 
+// End dropdown 1
+
+// Dropdown 2
 function dropdown2() {
     document.getElementById("myDropdown2").classList.toggle("show");
 }
@@ -31,3 +35,5 @@ window.onclick = function (event) {
         }
     }
 }
+
+// End dropdown 2
