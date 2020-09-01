@@ -309,7 +309,7 @@ section {
 
 		#tit:focus {
 			position: absolute;
-			bottom: 20rem;
+			top: 20rem;
 }
 
 	.card-body {
