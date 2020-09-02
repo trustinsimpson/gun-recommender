@@ -300,17 +300,14 @@ section {
 	#card1 {
 		bottom: 24rem;
 	}
-	}
+}
 
 @media only screen and (max-width: 361px) {
 	#tit {
 		font-size: 5rem;
-	}
-
-		#tit:focus {
-			position: absolute;
+		position: absolute;
 			bottom: 25rem;
-}
+	}
 
 	.card-body {
 		bottom: 25rem;
